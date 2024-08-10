@@ -1,0 +1,9 @@
+.container{
+  font-size: 24px;
+  display:flex;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  color: green;
+}
