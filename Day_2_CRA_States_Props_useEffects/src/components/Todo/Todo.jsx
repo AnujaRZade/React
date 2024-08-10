@@ -1,6 +1,6 @@
 
-import ListItems from "../listItems/ListItems";
-import InputBox from "../inputBox/InputBox";
+import ListItems from "./listItems/ListItems";
+import InputBox from "./inputBox/InputBox"
 import { useState } from "react";
 import './todo.css'
 
@@ -36,8 +36,9 @@ const Todo = () => {
 
     return (
         <>
-            <h1>Todo component</h1>
+            
             <div className="todo-wrapper">
+            <h1>Todo component</h1>
                 <InputBox addTask={takeTask} />
                 {/* //addTask is a method here from inputbox */}
 

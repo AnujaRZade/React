@@ -4,7 +4,7 @@ const ListItems = ({ taskItems, deleteTask }) => {
     return (
         <>
             <div className="Listitem_conatiner">
-                <h2>To do taskItems</h2>
+                
                 <ul>
                     {
                         taskItems && taskItems.length ? taskItems.map((taskItems) => {
