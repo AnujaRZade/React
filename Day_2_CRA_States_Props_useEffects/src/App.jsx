@@ -3,6 +3,7 @@ import Todo from './components/todo/Todo'
 import UseEffectsUseCases from "./components/useEffects/UseEffectsUseCases"
 import UseEffectRequestAPI from "./components/useEffects/UseEffectRequestAPI"
 import StopWatch from './components/stopWatch/StopWatch'
+import InfiniteScroll from './components/infiniteScroll/InfiniteScroll'
 
 import './App.css'
 
@@ -13,7 +14,8 @@ const App = () => {
       {/* <Todo/> */}
       {/* <UseEffectsUseCases/> */}
       {/* <UseEffectRequestAPI/> */}
-      <StopWatch/>
+      {/* <StopWatch/> */}
+      <InfiniteScroll/>
       </div>
     </>
 

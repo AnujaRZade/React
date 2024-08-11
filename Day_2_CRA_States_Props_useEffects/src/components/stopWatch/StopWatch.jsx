@@ -6,6 +6,7 @@ function StopWatch() {
     //useRef():it is used to preserve/persist the data across multiple re-rendering
     //return mutable obj which will persist throuout the component re-rendering with its ref
     const timerId=useRef(null);  //timerId will be refrence
+    
     useEffect(()=>{    //once the component re-renders we must clearinterval else it may cause memory leak
         return ()=>{
             clearInterval(timerId.current);
