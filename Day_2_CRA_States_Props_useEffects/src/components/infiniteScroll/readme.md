@@ -1,3 +1,5 @@
+## API- https://jsonplaceholder.typicode.com/comments?_page=3&_limit=10
+
 1. Fetch the data, pagination -> click on next button will get the second set of data elements.
     1. we have shown static data.
     2. make fetch API call to get the dynamic data
