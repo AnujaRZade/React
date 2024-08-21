@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom"
-import PageNotFound from "../pages/pageNotFound/PageNoyFound";
+import PageNotFound from "../pages/pageNotFound/PageNotFound";
 
 const PrivateRoute=({element, isUserAuthenticated})=>{
 

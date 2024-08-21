@@ -1,12 +1,15 @@
 import Navbar from "../navbar/Navbar"
 import './header.css'
 
-const Header=()=>{
 
-    return(
+const Header = ({categories, isLoading}) => {
+
+    return (
         <>
-        <div className="header">       <Navbar/></div>
- 
+            <div className="header">
+                <Navbar categories={categories} isLoading={isLoading}/>
+            </div>
+
         </>
     )
 }

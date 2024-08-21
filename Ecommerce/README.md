@@ -1,8 +1,10 @@
-# React + Vite
+# For REST API - https://fakestoreapi.com/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+pagination - https://fakestoreapi.com/products?limit=10
 
-Currently, two official plugins are available:
+for categories - https://fakestoreapi.com/products/categories
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+for individual category products - https://fakestoreapi.com/products/category/electronics
+
+## install
+npm i axios
